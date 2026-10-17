@@ -5,7 +5,7 @@ This project investigates whether measurements of cell nuclei can distinguish ma
 
 ### Data
 
-The brca.csv contains 569 samples and 30 numerical predictors. Each row summarizes nuclei from one breast-mass sample from fine needle extraction. The predictors describe ten nuclear characteristics using their mean, standard error, and worst summaries. The response is y, encoded as benign = 0 and malignant = 1. The exported row-number column is excluded from modeling.
+The brca.csv contains 569 samples and 30 numerical predictors. Each row summarizes nuclei from one breast-mass sample from fine-needle aspiration. The predictors describe ten nuclear characteristics using their mean, standard error, and worst summaries. The response is y, encoded as benign = 0 and malignant = 1. The exported row-number column is excluded from modeling.
 
 Dataset background: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
 
@@ -23,4 +23,4 @@ Logistic regression makes the fewest total errors and remains the project recomm
 
 #### Files and execution
 
-Run the project notebook in Google Colab from top to bottom after mounting Google Drive and setting the path to brca.csv. The work uses pandas, NumPy, matplotlib, seaborn, and scikit-learn. The local verification used scikit-learn 1.8.0.
+Run the project notebook in Google Colab from top to bottom after mounting Google Drive and setting the path to brca.csv. The work uses pandas, NumPy, matplotlib, seaborn, and scikit-learn.
